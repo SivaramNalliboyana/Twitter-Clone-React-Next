@@ -18,7 +18,6 @@ const SidebarLogo = ()=>{
         hover:bg-opacity-10
         cursor-pointer
         transition
-        
         ">
           <BsTwitter size={28} color="white" /> 
         </div>

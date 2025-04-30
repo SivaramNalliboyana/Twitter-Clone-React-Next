@@ -41,7 +41,10 @@ const Button: React.FC<ButtonProps> = ({
         ${outline ? 'text-white' : ''}
 
         `}>
+            {label}
 
         </button>
     )
 }
+
+export default Button;

@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useCallback } from "react";
 import { FaFeather } from "react-icons/fa";
 
-const SidebarTweetButton = ()=>{
+const SidebarTweetButton  = ()=>{
     const router = useRouter();
     const loginModal = useLoginModal();
     
@@ -14,7 +14,7 @@ const SidebarTweetButton = ()=>{
     return (
         <div onClick={onclick}>
             <div className="
-               mt-6
+               mt-5
                lg:hidden
                rounded-full
                h-14
